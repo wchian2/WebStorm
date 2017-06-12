@@ -60,7 +60,7 @@ console.log(name.toUpperCase() + "!!!");
 var initializedNumber = -10;
 while(initializedNumber < 20) {
     console.log(initializedNumber)
-    initializedNumber++
+    initializedNumber++;
 }
 
 // Then print all even numbers between 10 and 40
@@ -70,7 +70,7 @@ while(anotherNumber < 41) {
     if(anotherNumber % 2 == 0) {
         console.log(anotherNumber)
     }
-    anotherNumber++
+    anotherNumber++;
 }
 
 // And then print all odd numbers between 300 and 333
@@ -80,7 +80,7 @@ while(moreNumbers < 335) {
     if(moreNumbers % 2 == 1) {
         console.log(moreNumbers);
     }
-    moreNumbers++
+    moreNumbers++;
 }
 
 // Finally, print all numbers divisible by 5 AND 3 between 5 and 50
@@ -90,5 +90,5 @@ while(startingNumber <= 50) {
     if(startingNumber % 5 == 0 && startingNumber % 3 == 0) {
         console.log(startingNumber);
     }
-    startingNumber++
+    startingNumber++;
 }
