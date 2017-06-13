@@ -76,3 +76,32 @@ function kebabToSnake(string) {
     return string.replace(/-/g, "_");
 }
 console.log(kebabToSnake("hello-world")); //easy like pie
+
+
+// Scope
+
+function hidingVariable() {
+    var mysteryVariable = 50;
+    return mysteryVariable;
+}
+
+var mystery = 40;
+console.log(mystery);
+console.log(hidingVariable());
+
+
+// More Scope
+
+function greetNow() {
+    var greetings = "HI THERE";
+    console.log(greetings);
+}
+
+var greetings = "I am greeting later";
+
+function greetLater() {
+    console.log(greetings);
+}
+
+greetNow();
+greetLater(); // functions cannot see internal variables of other functions
